@@ -1,0 +1,31 @@
+<templateSet group="JavaScript">
+  <template name="fn" value="function $NAME$($PARAMS$) {&#10;  $END$&#10;}" description="Function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function () {&#10;  'use strict';&#10;  $END$&#10;}());&#10;" description="Immediately Invoked Function Expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pfn" value="$objectName$.prototype.$functionName$ = function $functionName$($params$) {&#10;  $END$&#10;};&#10;" description="Prototype Function" toReformat="false" toShortenFQNames="true">
+    <variable name="objectName" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="functionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

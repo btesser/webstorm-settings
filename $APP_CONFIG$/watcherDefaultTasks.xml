@@ -1,0 +1,32 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="-f $FilePath$ -c $ProjectFileDir$/tslint.json" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Checks typescript files" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="TSLint" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="tslint error format" />
+            <option name="name" value="tslint" />
+            <option name="regExp" value="$FILE_PATH$\[$LINE$, $COLUMN$\]: $MESSAGE$$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="$USER_HOME$/Development/trade-entry-tool/node_modules/tslint/bin/tslint" />
+      <option name="scopeName" value="App" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs>
+        <env name="PATH" value="/Users/btesser/.rvm/gems/ruby-2.1.5/bin:/Users/btesser/.rvm/gems/ruby-2.1.5@global/bin:/Users/btesser/.rvm/rubies/ruby-2.1.5/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/btesser/.rvm/gems/ruby-2.1.5/bin:/Users/btesser/.rvm/gems/ruby-2.1.5@global/bin:/Users/btesser/.rvm/rubies/ruby-2.1.5/bin:/usr/local/sbin:/usr/local/pear/bin:/Users/btesser/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/pear/bin:/Users/btesser/.rvm/bin" />
+      </envs>
+    </TaskOptions>
+  </component>
+</application>

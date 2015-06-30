@@ -1,0 +1,93 @@
+<templateSet group="user">
+  <template name="gcd" value="{&#10;  name: '$NAME$',&#10;  field: '$FIELD$'&#10;}$END$" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PL/SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="inject" value="// Initialize the controller and a mock scope&#10;beforeEach(inject(&#10;  /**&#10;   * @param {ng.IScope} $rootScope&#10;   * @param $injector&#10;   * @param _$BEINGTESTED$_&#10;   */&#10;  function ($rootScope, $injector, _$BEINGTESTED$_) {&#10;    $httpBackend = $injector.get('$httpBackend');&#10;    scope = $rootScope.$new();&#10;    $BEINGTESTED$ = _$BEINGTESTED$_;&#10;  }));" toReformat="true" toShortenFQNames="true">
+    <variable name="BEINGTESTED" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="Bash" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PL/SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="@" value="this." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="Bash" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PL/SQL" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
