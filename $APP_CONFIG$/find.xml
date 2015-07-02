@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
     <option name="defaultScopeName" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
     <recentFileMasks>
       <mask>*.properties</mask>
