@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
-    <option name="defaultScopeName" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
-    <option name="SEARCH_SCOPE" value="Directory '/Users/btesser/Development/trade-entry-tool/app/components'" />
+    <option name="customScope" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
+    <option name="defaultScopeName" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
+    <option name="SEARCH_SCOPE" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
