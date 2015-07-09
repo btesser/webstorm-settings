@@ -1,0 +1,50 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Resources/DefinitelyTyped/ui-grid/ui-grid.d.ts" timestamp="1436453317939" />
+      <file name="$USER_HOME$/Development/trade-entry-tool/app/views/security-issuance/signature/ecdsa-signature-service.ts" timestamp="1436454428320">
+        <mark key="]" line="13" column="15" />
+        <mark key="." line="13" column="15" />
+        <mark key="[" line="13" column="15" />
+      </file>
+      <file name="$USER_HOME$/Development/trade-entry-tool/app/utilities/custom-ui-grid-row/ui-grid-row-directive.ts" timestamp="1436454389577">
+        <mark key="'" line="36" column="5" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="36" column="5" filename="$USER_HOME$/Development/trade-entry-tool/app/utilities/custom-ui-grid-row/ui-grid-row-directive.ts" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">eSA=</text>
+      </register>
+      <register name="2" type="4">
+        <text />
+      </register>
+      <register name="1" type="4">
+        <text encoding="base64">eSA=</text>
+      </register>
+      <register name="/" type="4">
+        <text>dir</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">eSA=</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>dir</last-search>
+      <last-offset />
+      <last-pattern>dir</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>dir</entry>
+      </history-search>
+    </history>
+    <shortcut-conflicts />
+  </component>
+</application>
