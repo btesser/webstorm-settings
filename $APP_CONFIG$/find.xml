@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
     <option name="defaultScopeName" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '/Users/btesser/Resources/angular-ui-tree/source'" />
     <recentFileMasks>
       <mask>*.properties</mask>
